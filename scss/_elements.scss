@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.circle { border-radius: 50%; }
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: $link-hover-color;
+  text-decoration: none;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.left { float: left; }
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.right { float: right; }
+.radius {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before { margin: 0; }

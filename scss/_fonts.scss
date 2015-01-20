@@ -1,0 +1,301 @@
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-Hair.eot');
+  src: local('Fira Sans Hair'),
+  url('../fonts/fira/eot/FiraSans-Hair.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-Hair.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-Hair.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-HairItalic.eot');
+  src: local('Fira Sans Hair Italic'),
+  url('../fonts/fira/eot/FiraSans-HairItalic.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-HairItalic.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-HairItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-UltraLight.eot');
+  src: local('Fira Sans UltraLight'),
+  url('../fonts/fira/eot/FiraSans-UltraLight.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-UltraLight.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-UltraLightItalic.eot');
+  src: local('Fira Sans UltraLight Italic'),
+  url('../fonts/fira/eot/FiraSans-UltraLightItalic.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-UltraLightItalic.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-UltraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-Light.eot');
+  src: local('Fira Sans Light'),
+  url('../fonts/fira/eot/FiraSans-Light.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-Light.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-LightItalic.eot');
+  src: local('Fira Sans Light Italic'),
+  url('../fonts/fira/eot/FiraSans-LightItalic.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-LightItalic.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-Regular.eot');
+  src: local('Fira Sans Regular'),
+  url('../fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-Italic.eot');
+  src: local('Fira Sans Regular Italic'),
+  url('../fonts/fira/eot/FiraSans-Italic.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-Italic.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-Medium.eot');
+  src: local('Fira Sans Medium'),
+  url('../fonts/fira/eot/FiraSans-Medium.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-Medium.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-MediumItalic.eot');
+  src: local('Fira Sans Medium Italic'),
+  url('../fonts/fira/eot/FiraSans-MediumItalic.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-MediumItalic.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-SemiBold.eot');
+  src: local('Fira Sans SemiBold'),
+  url('../fonts/fira/eot/FiraSans-SemiBold.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-SemiBold.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-SemiBoldItalic.eot');
+  src: local('Fira Sans SemiBold Italic'),
+  url('../fonts/fira/eot/FiraSans-SemiBoldItalic.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-SemiBoldItalic.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-Bold.eot');
+  src: local('Fira Sans Bold'),
+  url('../fonts/fira/eot/FiraSans-Bold.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-Bold.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-BoldItalic.eot');
+  src: local('Fira Sans Bold Italic'),
+  url('../fonts/fira/eot/FiraSans-BoldItalic.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-BoldItalic.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-ExtraBold.eot');
+  src: local('Fira Sans ExtraBold'),
+  url('../fonts/fira/eot/FiraSans-ExtraBold.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-ExtraBold.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-ExtraBoldItalic.eot');
+  src: local('Fira Sans ExtraBold Italic'),
+  url('../fonts/fira/eot/FiraSans-ExtraBoldItalic.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-ExtraBoldItalic.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-Heavy.eot');
+  src: local('Fira Sans Heavy'),
+  url('../fonts/fira/eot/FiraSans-Heavy.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-Heavy.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans';
+  src: url('../fonts/fira/eot/FiraSans-HeavyItalic.eot');
+  src: local('Fira Sans Heavy Italic'),
+  url('../fonts/fira/eot/FiraSans-HeavyItalic.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-HeavyItalic.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+@font-face{
+  font-family: 'Fira Mono';
+  src: url('../fonts/fira/eot/FiraMono-Regular.eot');
+  src: local('Fira Mono'),
+  url('../fonts/fira/eot/FiraMono-Regular.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraMono-Regular.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Mono';
+  src: url('../fonts/fira/eot/FiraMono-Bold.eot');
+  src: local('Fira Mono Bold'),
+  url('../fonts/fira/eot/FiraMono-Bold.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraMono-Bold.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraMono-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Fira Sans Book';
+  src: url('../fonts/fira/eot/FiraSans-Book.eot');
+  src: local('Fira Sans Book'),
+  url('../fonts/fira/eot/FiraSans-Book.eot') format('embedded-opentype'),
+  url('../fonts/fira/woff/FiraSans-Book.woff') format('woff'),
+  url('../fonts/fira/ttf/FiraSans-Book.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'ProximaNovaCond-Semibold';
+  src: url('../fonts/proximanova/ProximaNovaCond-Semibold.eot?#iefix') format('embedded-opentype'),  url('../fonts/proximanova/ProximaNovaCond-Semibold.otf')  format('opentype'),
+  url('../fonts/proximanova/ProximaNovaCond-Semibold.woff') format('woff'), url('../fonts/proximanova/ProximaNovaCond-Semibold.ttf')  format('truetype'), url('../fonts/proximanova/ProximaNovaCond-Semibold.svg#ProximaNovaCond-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'loft-social-icons';
+  src: url('../fonts/loft-social-icons/loft-social-icons.eot?96358006');
+  src: url('../fonts/loft-social-icons/loft-social-icons.eot?96358006#iefix') format('embedded-opentype'),
+  url('../fonts/loft-social-icons/loft-social-icons.woff?96358006') format('woff'),
+  url('../fonts/loft-social-icons/loft-social-icons.ttf?96358006') format('truetype'),
+  url('../fonts/loft-social-icons/loft-social-icons.svg?96358006#loft-social-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'loft-social-icons';
+    src: url('../font/loft-social-icons.svg?96358006#loft-social-icons') format('svg');
+  }
+}
+*/
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "loft-social-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-vk:before { content: '\e800'; } /* '' */
+.icon-twitter:before { content: '\e801'; } /* '' */
+.icon-facebook:before { content: '\e802'; } /* '' */
+.icon-github:before { content: '\e803'; } /* '' */
+.icon-mail:before { content: '\e804'; } /* '' */
+.icon-phone:before { content: '\e805'; } /* '' */
+.icon-skype:before { content: '\e806'; } /* '' */

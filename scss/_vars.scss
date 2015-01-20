@@ -1,0 +1,44 @@
+@charset "UTF-8";
+// Размеры контейнеров для разных устройств
+$mobile-container: 290px;
+$tablet-container: 698px;
+$desktop-container: 960px;
+
+// Отступы для контейнеров
+$mobile-container-padding: 14px;
+$tablet-container-padding: 35px;
+$desktop-container-padding: 120px;
+
+// Брейкпойнты
+$mobile-breakpoint: ($mobile-container + 2*$mobile-container-padding);
+$tablet-breakpoint: ($tablet-container + 2*$tablet-container-padding);
+$desktop-breakpoint: ($desktop-container + 2*$desktop-container-padding);
+
+// Стили шрифтов
+$font-family: 'Fira Sans Book';
+$font-size: 17px;
+$line-height: 1.1;
+
+// Основные цвета
+$font-color: #4a545d;
+$background-color: #eff3f7;
+$link-color: #3BA8C0;
+$link-hover-color: #f43f3f;
+$button-color: #e74b3c;
+$button-hover-color: #f43f3f;
+$h-color: #3BA8C0;
+
+// Размеры блоков
+$mobile-sidebar-width: 250px;
+$tablet-sidebar-width: 250px;
+$desktop-sidebar-width: 250px;
+$mobile-content-width: 650px;
+$tablet-content-width: 650px;
+$desktop-content-width: 650px;
+
+  // Цвета блоков
+$header-background-color: $background-color;
+$sidebar-background-color: $background-color;
+$content-background-color: #fff;
+$block-background-color: $background-color;
+$footer-background-color: $background-color;
