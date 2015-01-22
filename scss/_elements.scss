@@ -3,16 +3,13 @@
 a {
   color: $link-color;
   text-decoration: none;
+  outline: none;
 }
 a:hover,
 a:focus {
   color: $link-hover-color;
   text-decoration: none;
-}
-a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+  outline: none;
 }
 .left { float: left; }
 .center {
@@ -25,5 +22,10 @@ a:focus {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  max-width: 100%;
 }
 [class^="icon-"]:before, [class*=" icon-"]:before { margin: 0; }

@@ -33,6 +33,9 @@ h3 {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+.wrap {
+  background: url("../images/wrap-bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
 ul, ol { margin: 0; padding: 0; list-style: outside none none; }
 header { min-height: 115px; margin-bottom: 40px; background-color: $header-background-color; }
 .header-container {
@@ -221,7 +224,7 @@ footer { height: 78px; margin-top: 20px; background-color: $footer-background-co
 .auth img { margin-top: 22px; }
 .copyright { width: 600px; text-align: center; line-height: 78px; }
 
-/* My Works */
+/* Мои работы */
 .works { min-height: 840px; }
 .works-list { float: left; width: 100%; margin-top: 28px; }
 .works-list ul { margin-left: 20px; }
@@ -243,17 +246,20 @@ footer { height: 78px; margin-top: 20px; background-color: $footer-background-co
   margin: 0;
   padding: 0;
   height: 130px;
+  line-height: 130px;
+  text-align: center;
   width: 180px;
-  background: none repeat scroll 0% 0% $h-color;
+  background: none repeat scroll 0 0 $h-color;
   opacity: 0;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-.work-tip:hover { opacity: 0.8; color: #ffffff; line-height: 130px; text-align: center; }
+.work-tip:hover { color: #ffffff; opacity: 0.8;  }
 .work-tip span {
   font-family: "Fira Sans Book";
   font-size: 12px;
+  text-align: center;
   border: 2px solid #fff;
   border-radius: 5px;
   padding: 2px;
@@ -275,11 +281,11 @@ footer { height: 78px; margin-top: 20px; background-color: $footer-background-co
   font-style: normal;
   text-align: center;
 }
-.add-work {
-  height: 127px;
-  position: relative;
+.works-list ul li.add-work:hover {
+  background: none repeat scroll 0 0 #ceecf7;
 }
-.works-list ul li.add-work {
+#add-work {
+  cursor: pointer;
   height: 130px;
   width: 180px;
   background: none repeat scroll 0 0 #edf8fc;
@@ -288,15 +294,13 @@ footer { height: 78px; margin-top: 20px; background-color: $footer-background-co
   -moz-border-radius: 4px;
   border-radius: 4px;
 }
-.works-list ul li.add-work:hover {
-  background: none repeat scroll 0 0 #ceecf7;
-}
-.add-work img { height: 32px; width: 32px; display: block;
+#add-work img {
+  height: 32px; width: 32px; display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
 }
-.add-work span {
+#add-work span {
   display: block;
   width: 100%;
   color: $h-color;
@@ -305,17 +309,141 @@ footer { height: 78px; margin-top: 20px; background-color: $footer-background-co
   text-align: center;
   margin-top: 13px;
 }
+.messi-content {
+  background: none repeat scroll 0 0 #eff3f7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.messi-content form {
+  padding: 7px 22px 25px;
+}
+.messi-content form label {
+  color: #959aa8;
+  font: 17px "Fira Sans Book";
+}
+.messi-content form p {
+  height: 47px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.messi-content form input, .messi-content form textarea {
+  border: 1px solid #48cbe8;
+  border-radius: 3px;
+  color: #48cbe8;
+  display: inline-block;
+  font: 13px "Fira Sans";
+  margin-bottom: 8px;
+  margin-top: 4px;
+  padding: 10px 9px;
+  width: 300px;
+}
+.messi-content form .buttons {
+  text-align: center;
+}
+.messi-content form .buttons button {
+  background: none repeat scroll 0 0 #48cbe8;
+  border: 0 none;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 0 #3ba8c0;
+  color: #fff;
+  cursor: pointer;
+  font: 19px "Fira Sans Book";
+  letter-spacing: 1px;
+  padding: 5px 4px;
+  width: 138px;
+}
+.messi-content form p span#upload-picture {
+  background: url("../images/upload-picture.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  height: 41px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 52px;
+}
 
-#test {
-
-  width: 404px;
-  padding-bottom: 2px;
-
-  display:none;
-
-
-  background: #FFF;
-  border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
-
+/* Связаться со мной */
+.contact-me {
+    background: none repeat scroll 0 0 #eff3f7;
+    margin-bottom: 12px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.contact-me h2 {
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  background: none repeat scroll 0 0 #48cbe8;
+  border-bottom: 17px solid #67dffa;
+  color: #fff;
+  font: 27px "Fira Sans Book";
+  padding: 46px 10px;
+  margin: 0;
+  text-align: center;
+}
+.contact-me form {
+  margin: 34px auto 0;
+  width: 398px;
+}
+.name-mail { display: inline-block; }
+.contact-me form .input {
+  float: left;
+  width: 190px;
+}
+.contact-me form .input input {
+  border: 1px solid #48cbe8;
+  border-radius: 4px;
+  color: #48cbe8;
+  font: 13px "Fira Sans";
+  padding: 9px;
+  width: 192px;
+}
+.contact-me form .input:first-child {
+  margin-right: 18px;
+}
+.contact-me form .textarea {
+  margin-top: 10px;
+  display: block;
+}
+.contact-me form .textarea textarea {
+  border: 1px solid #48cbe8;
+  border-radius: 4px;
+  min-height: 183px;
+  padding: 9px;
+  width: 403px;
+}
+.contact-me form .capture {
+  margin-top: 9px;
+  width: 402px;
+}
+.contact-me form .capture img {
+  border: 1px solid #48cbe8;
+  border-radius: 3px;
+  float: left;
+  width: 160px;
+}
+.contact-me form .buttons {
+  margin-top: 38px;
+  width: 401px;
+}
+.contact-me form .buttons button {
+  background: none repeat scroll 0 0 #48cbe8;
+  border: 0 none;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 0 #3ba8c0;
+  color: #fff;
+  cursor: pointer;
+  float: left;
+  font: 19px "Fira Sans";
+  letter-spacing: 1px;
+  width: 140px;
+}
+.contact-me form .buttons button:last-child {
+  background: none repeat scroll 0 0 #849db5;
+  box-shadow: 0 2px 0 0 #687b8f;
+  float: right;
 }
